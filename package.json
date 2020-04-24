@@ -1,0 +1,31 @@
+{
+  "name": "tsemitter",
+  "version": "0.0.1",
+  "description": "Simple typescript event emitter, provides clean utilities to fire and listen to events.",
+  "keywords": [
+    "emitter",
+    "tsemitter",
+    "event emitter",
+    "typescript"
+  ],
+  "types": "lib/index.d.ts",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "files": [
+    "css",
+    "es",
+    "lib",
+    "umd"
+  ],
+  "scripts": {
+    "add-assets": "copyfiles -u 1 'src/**/!(*.js|*.jsx|*.map|*.ts|*.tsx)' lib/",
+    "build:ts": "tsc",
+    "build:all": "yarn build:ts && yarn add-assets",
+    "prepublishOnly": "yarn build:all"
+  },
+  "devDependencies": {
+    "copyfiles": "^2.1.1",
+    "typescript": "^3.8.2"
+  },
+  "author": "tejasupmanyu"
+}
