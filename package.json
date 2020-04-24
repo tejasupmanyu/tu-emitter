@@ -1,10 +1,10 @@
 {
   "name": "tu-emitter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple typescript event emitter, provides clean utilities to fire and listen to events.",
   "keywords": [
     "emitter",
-    "tsemitter",
+    "tu-emitter",
     "event emitter",
     "typescript"
   ],
@@ -32,5 +32,5 @@
     "name": "Tejas Upmanyu",
     "url": "https://twitter.com/tejasupmanyu"
   },
-  "repository": "https://github.com/tejasupmanyu/tsemitter"
+  "repository": "https://github.com/tejasupmanyu/tu-emitter"
 }
