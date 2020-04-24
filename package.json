@@ -1,5 +1,5 @@
 {
-  "name": "tsemitter",
+  "name": "tu-emitter",
   "version": "0.0.1",
   "description": "Simple typescript event emitter, provides clean utilities to fire and listen to events.",
   "keywords": [

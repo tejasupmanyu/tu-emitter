@@ -1,21 +1,21 @@
 ## Introduction
 
-tsemitter is a small, simple, typescript event emitter which provides clean utilities to fire and listen to events.
+`tu-emitter` is a small, simple, typescript event emitter which provides clean utilities to fire and listen to events.
 
 ## Usage
 
-Inside your React project, add `tsemitter` using,
+Inside your React project, add `tu-emitter` using,
 
-`yarn add tsemitter`
+`yarn add tu-emitter`
 
 or with npm:
 
-`npm install tsemitter`
+`npm install tu-emitter`
 
 ## Quick Start
 
 ```jsx
-import { Emitter } from "tsemitter";
+import { Emitter } from "tu-emitter";
 
 const emitter = new Emitter();
 emitter.addListener("event", function (x) {
