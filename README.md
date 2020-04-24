@@ -1,6 +1,6 @@
 ## Introduction
 
-tsemitter is a small, simple, typescript event emitter, provides clean utilities to fire and listen to events.
+tsemitter is a small, simple, typescript event emitter which provides clean utilities to fire and listen to events.
 
 ## Usage
 

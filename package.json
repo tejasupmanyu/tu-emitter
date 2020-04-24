@@ -21,11 +21,16 @@
     "add-assets": "copyfiles -u 1 'src/**/!(*.js|*.jsx|*.map|*.ts|*.tsx)' lib/",
     "build:ts": "tsc",
     "build:all": "yarn build:ts && yarn add-assets",
-    "prepublishOnly": "yarn build:all"
+    "prepublishOnly": "yarn build:all",
+    "prepublish": "yarn build:all"
   },
   "devDependencies": {
     "copyfiles": "^2.1.1",
     "typescript": "^3.8.2"
   },
-  "author": "tejasupmanyu"
+  "author": {
+    "name": "Tejas Upmanyu",
+    "url": "https://twitter.com/tejasupmanyu"
+  },
+  "repository": "https://github.com/tejasupmanyu/tsemitter"
 }
